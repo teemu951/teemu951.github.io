@@ -33,6 +33,11 @@ font-size: 20px;
 }
 #DIVteksti{
   font-size: 10px;
+  h4{
+    color: red;
+    font-size: 20px;
+    text-align: left;
+  }
 }
 #boxi{
   color: red;font-size; 30px; text-align: left;
