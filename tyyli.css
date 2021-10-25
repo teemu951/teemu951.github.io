@@ -22,7 +22,7 @@ font-size: 20px;
 }
 .minunDiv{
   border: 5px outset red;
-  background-color: lightblue;    
+  background-color: white;    
   text-align: center;
   border-style: dotted;
   border-width: 2px;
@@ -32,3 +32,5 @@ font-size: 20px;
 #DIVotsikko{
   font-size: 10px;
 }
+#DIVteksti{
+  font-size: 10px;
