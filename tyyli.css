@@ -23,12 +23,12 @@ font-size: 20px;}
 #DIVteksti{font-size: 10px;color:white;}
 #boxi{color: white;font-size; 30px; text-align: left;}
   h4{
-    color: red;
+    color: white;
     font-size: 20px;
     text-align: left;}
 
 .abc{list-style-type: lower-alpha;color:red; font-size: 20px;}
 
-h5{color:red;font-size: 20px; text-align: left;}
+h5{color:white;font-size: 20px; text-align: left;}
 
-.neliöitä{list-style-type: square;color:red; font-size: 10px;}
+.neliöitä{list-style-type: square;color:white; font-size: 10px;}
