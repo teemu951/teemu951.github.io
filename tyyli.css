@@ -28,3 +28,6 @@ font-size: 20px;}
     font-size: 20px;
     text-align: left;}
 ol.abc{list-style-type: lower-alpha;color:red; font-size: 20px;}
+h5{
+  color:red;font-size: 20px; text-align: left;}
+ul.neliöitä{list-style-type: square;color:red; font-size: 20px;}
