@@ -10,7 +10,8 @@ h2{color: white;text-align: center;font-family: "Comic Sans MS", "Comic Sans", c
   body{background-color: black;}
 h3{
   color: white;
-font-size: 20px;}
+font-size: 20px;
+font-family: "Comic Sans MS", "Comic Sans", cursive;}
 .minunDiv{
   border: 5px outset red;
   background-color: black;    
