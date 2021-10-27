@@ -1,5 +1,7 @@
 body{
-  background-image: url ("nature.png");
+background-image: url ("nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
   color: white;
