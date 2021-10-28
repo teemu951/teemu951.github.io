@@ -1,8 +1,8 @@
   body {background-image: url(sunset.jpg);
   background-size: cover;}
 h1{
-  color: white;
-  text-align: center;
+  color: rgb(6, 240, 228);
+  text-align: center;font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;}
 p{
   color: #000000;
