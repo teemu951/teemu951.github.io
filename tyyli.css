@@ -35,8 +35,11 @@ h5{color:white;font-size: 20px; text-align: left;font-family: "Comic Sans MS", "
 h6{color:white;font-size: 20px; text-align: left;font-family: "Comic Sans MS", "Comic Sans", cursive;}
 
 .neliöitä{list-style-type: square;color:white; font-size: 20px}
-div
-{display: flex;
-justify-content: flex-end;
-background-color: cornsilk;
-width: fit-content;}
+.sivulink
+{position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  border: 3px solid #f30606;
+  background-color: cornsilk;
+text-align: center;}
