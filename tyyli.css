@@ -1,50 +1,19 @@
-  body {background-image: url(sunset.jpg);
-    text-decoration: none;
-    font-size: 20px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Tahoe, Verdana, sans-serif;
+body
+{
+background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
+background-position: center fixed;
+background-repeat: no-repeat;
+background-size: cover;}
+h1
+{
+  font-family: 'WaltographRegular';
+  font-weight: normal;
+  font-style: normal;
+font-size: 80px;
+  color: rgba(255, 0, 0, 0.562);
 }
-h1{
-  color: rgb(68, 0, 255);
-  text-align: center;font-family:Arial, Helvetica, sans-serif;
-  font-size: 20px;}
-  h2{
-    color: rgb(67, 18, 245);
-  text-align: center;font-family:Arial, Helvetica, sans-serif;
-  font-size: 20px;}
-  h3{
-    color: rgb(245, 44, 18);
-  text-align: center;font-family:Arial, Helvetica, sans-serif;
-  font-size: 20px;}
-*{box-sizing: border-box;}
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+p
+{
+  color: rgba(165, 42, 42, 0.788);
+  font-size: 50px;
 }
-.footer {
-text-align: center;
-  color: rgb(252, 6, 6);
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
-}
-.row{
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-img.left-image{
-  position:absolute;
-  left:5vw;
-  top:1vh;
-}
-.header{
-    margin-bottom: 10px;
-    color: cornsilk;
-  }
-  .logo
-  {padding: 10px;
-  color: aqua;}
