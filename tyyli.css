@@ -9,11 +9,16 @@ h1
   font-family: 'WaltographRegular';
   font-weight: normal;
   font-style: normal;
-font-size: 80px;
+font-size: 50px;
   color: rgba(255, 0, 0, 0.562);
+  text-align: center;
 }
 p
 {
-  color: rgba(165, 42, 42, 0.788);
-  font-size: 50px;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 20px;
+}
+.responsive {
+  width: 50%;
+  height: auto;
 }
