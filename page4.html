@@ -4,13 +4,55 @@
   <title>Teemun kotisivu</title>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="tyyli.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <div class="trolli">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/2Z4m4lnjxkY?controls=0&amp;start=25"></iframe>
-  </div>
-  <button onclick="window.location.href='index.html';" style="background-color: rgb(255, 0, 0);">
-   <strong>APUA! TAKAISIN!</strong> 
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a href="index.html" class="navbar-brand"><img src="koti-ikoni.png" alt="Home-icon" style="width: 50px;"></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="page2.htm" class="nav-link">Kissagalleria</a>
+        </li>
+        <li class="nav-item">
+          <a href="page3.html" class="nav-link">Kolmas sivu</a>
+          </li>
+          <li class="nav-item">
+            <a href="page4.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h2 style="color: red;">Ota yhteyttä!</h2>
+        <p style="color: rgb(255, 0, 0);">Laita ihmeessä viestiä</p>
+        <br>
+          <form action="/action_page.php">
+            <label for="fname" style="color: red;"><strong>Etunimi</strong></label>
+            <input class="contact" type="text" id="fname" name="firstname" placeholder="Etunimesi?">
+            <label for="lname" style="color: red;"><strong>Sukunimi</strong></label>
+            <input class="contact" type="text" id="lname" name="lastname" placeholder="Sukunimesi?">
+            <label for="country" style="color: red;"><strong>Kotimaa</strong></label>
+            <select id="country" name="country">
+              <option value="finland" style="color: red;"><strong>Suomi</strong></option>
+              <option value="UK">UK</option>
+              <option value="usa">USA</option>
+              <option value="canada">France</option>
+              <option value="australia">Sweden</option>
+              <option value="other">Joku muu</option>
+    
+            </select>
+            <label for="subject" style="color: red;"><strong>Kysyttävää?</strong></label>
+            <textarea id="subject" name="subject" placeholder="Kirjoita ihmeessä..." style="height:170px"></textarea>
+            <input type="submit" value="submit">
+          </form>
+        </div>
+      </div>
+    </div>
 </body>
   </html>
