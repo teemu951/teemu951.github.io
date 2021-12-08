@@ -21,7 +21,7 @@ h2
 p
 {
   color: rgba(255, 255, 255, 0.788);
-  font-size: 20;
+  font-size: 20px;
 }
 .responsive {
   width: 50%;
@@ -33,7 +33,7 @@ p
   bottom: 0;
   width: 100%;
   color: white;
-  font-size: 20;
+  font-size: 20px;
   text-align: center;
   background-image: url(komeetta.png);
 }
