@@ -2,7 +2,8 @@ body
 {
 background-image: url(tähtikuva.jpg);
 background-repeat: no-repeat;
-background-size: cover;}
+background-size: cover;
+background-attachment: fixed;}
 h1
 {
   font-family: 'WaltographRegular';
@@ -15,7 +16,7 @@ font-size: 50px;
 p
 {
   color: rgba(255, 255, 255, 0.788);
-  font-size: 20px;
+  font-size: 20;
 }
 .responsive {
   width: 50%;
@@ -50,12 +51,12 @@ p
 /* Kissa galleria */
 .slider-holder
         {
-            width: 800px;
-            height: 400px;
+            max-width: 900px;
+            max-height: 400px;
             margin-left:auto;
             margin-right: auto;
             margin-top: 50px;
-            text-align: center;
+            text-align: left;
             overflow: hidden;
         }
        
@@ -66,21 +67,20 @@ p
             clear: both;
             position: relative;
            
-            -webkit-transition: left 2s;
-            -moz-transition: left 2s;
-            -o-transition: left 2s;
-            transition: left 2s;
+            -webkit-transition: left 3s;
+            -moz-transition: left 3s;
+            -o-transition: left 3s;
+            transition: left 3s;
         }
        
         .slider-image
         {
             float: left;
             margin: 0px;
-            padding: 0px;
+            padding: 10px;
             position: relative;
-            width: 100%;
-           max-width: 400px;
-           height: 320px;
+           max-width: 100%;
+           height: 80%;
         }
        
         #slider-image-1:target ~ .image-holder
@@ -108,7 +108,7 @@ p
         {
             display: inline-block;
             height: 15px;
-            width: 15px;
+            width: 50px;
             border-radius: 5px;
-            background-color: yellow;
+            background-color: rgb(255, 0, 0);
         }
