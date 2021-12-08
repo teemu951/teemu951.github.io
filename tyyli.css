@@ -37,30 +37,6 @@ p
   text-align: center;
   background-image: url(komeetta.png);
 }
-#Ruohonen
-{
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-#Ruohonen td, #Ruohonen th {
-  border: 1px solid #ddd;
-  padding: 8px;
-  background-color: aqua;
-}
-#Ruohonen tr:nth-child(even){background-color: #02dbf8;}
-#Ruohonen td:hover {background-color: rgb(243, 199, 4);}
-#Ruohonen th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #07c5f5;
-  color: rgb(247, 23, 7);
-}
-#Enimi
-{
-  font-family: Arial, Helvetica, sans-serif;
-}
 * {box-sizing:border-box}
 
 /* Kissa galleria */
@@ -100,19 +76,26 @@ p
        
         #slider-image-1:target ~ .image-holder
         {
-            left: 0px;
+            left: +100px;
         }
        
         #slider-image-2:target ~ .image-holder
         {
-            left: -800px;
+            left: -300px;
         }
        
         #slider-image-3:target ~ .image-holder
         {
-            left: -1600px;
+            left: -800px;
         }
-       
+        #slider-image-4:target ~ .image-holder
+        {
+            left: -1250px;
+        }
+        #slider-image-5:target ~ .image-holder
+        {
+            left: -1700px;
+        }
         .button-holder
         {
             position: relative;
