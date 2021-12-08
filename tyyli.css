@@ -86,7 +86,7 @@ p
        
         #slider-image-3:target ~ .image-holder
         {
-            left: -800px;
+            left: -785px;
         }
         #slider-image-4:target ~ .image-holder
         {
