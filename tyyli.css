@@ -20,7 +20,7 @@ h2
 }
 p
 {
-  color: rgba(255, 255, 255, 0.788);
+  color: rgba(0, 0, 0, 0.788);
   font-size: 20px;
 }
 .responsive {
@@ -166,4 +166,16 @@ p
           content: "";
           display: table;
           clear: both;
+        }
+        .jääkiekko_tieto1
+        {
+          background-color: #02dbf88c;
+        }
+        .jääkiekko_tieto2
+        {
+          background-color: #00e1ff8c;
+        }
+        .jääkiekko_tieto3
+        {
+          background-color: #02dbf88c;
         }
