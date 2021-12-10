@@ -3,12 +3,13 @@
 <head>
   <title>Teemun kotisivu</title>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 <link rel="stylesheet" href="tyyli.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a href="index.html" class="navbar-brand"><img src="koti-ikoni.png" alt="Home-icon" style="width: 50px;"></a>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a href="index.html" class="navbar-brand"><img src="tulinen_kiekko.png" alt="Home-icon" style="width: 50px;"></a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,20 +27,22 @@
       </ul>
     </div>
   </nav>
+  <br>
+  <br>
     <div class="container">
       <div class="row">
         <div class="column">
-          <h2 style="color: red;">Ota yhteyttä!</h2>
-        <p style="color: rgb(255, 0, 0);">Laita ihmeessä viestiä</p>
+          <h2 style="color: rgb(0, 0, 0);">Ota yhteyttä!</h2>
+        <p style="color: rgb(0, 0, 0);">Laita ihmeessä viestiä</p>
         <br>
           <form action="index.html">
-            <label for="fname" style="color: red;"><strong>Etunimi</strong></label>
+            <label for="fname" style="color: rgb(0, 0, 0);"><strong>Etunimi</strong></label>
             <input class="contact" type="text" id="fname" name="firstname" placeholder="Etunimesi?">
-            <label for="lname" style="color: red;"><strong>Sukunimi</strong></label>
+            <label for="lname" style="color: rgb(0, 0, 0);"><strong>Sukunimi</strong></label>
             <input class="contact" type="text" id="lname" name="lastname" placeholder="Sukunimesi?">
-            <label for="country" style="color: red;"><strong>Kotimaa</strong></label>
+            <label for="country" style="color: rgb(0, 0, 0);"><strong>Kotimaa</strong></label>
             <select id="country" name="country">
-              <option value="finland" style="color: red;"><strong>Suomi</strong></option>
+              <option value="finland" style="color: rgb(0, 0, 0);"><strong>Suomi</strong></option>
               <option value="UK">UK</option>
               <option value="usa">USA</option>
               <option value="canada">France</option>
@@ -47,12 +50,21 @@
               <option value="other">Joku muu</option>
     
             </select>
-            <label for="subject" style="color: red;"><strong>Kysyttävää?</strong></label>
+            <label for="subject" style="color: rgb(0, 0, 0);"><strong>Kysyttävää?</strong></label>
             <textarea id="subject" name="subject" placeholder="Kirjoita ihmeessä..." style="height:170px"></textarea>
-            <input type="submit" value="submit">
+            <input type="submit" value="Lähetä">
           </form>
         </div>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+      <p>Kiitos käynnistä! Teemun sivuilla &copy;</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
   </html>

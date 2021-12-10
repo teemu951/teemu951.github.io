@@ -1,16 +1,16 @@
 body
 {
-background-image: url(tähtikuva.jpg);
+background-image: url(Jääkiekko_tausta.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;}
 h1
 {
-  font-family: 'WaltographRegular';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-style: normal;
-font-size: 50px;
-  color: rgba(255, 0, 0, 0.562);
+font-size: 30px;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 h2
@@ -37,8 +37,6 @@ p
   text-align: center;
   background-image: url(komeetta.png);
 }
-* {box-sizing:border-box}
-
 /* Kissa galleria */
 .slider-holder
         {
@@ -111,7 +109,7 @@ p
             background-color: aqua;
         }
         a:hover, a:active {
-          background-color: rgb(255, 0, 0);
+          background-color: rgba(160, 137, 137, 0.274);
           transition: background-color 1.5s ease;
         }
         .trolli {
@@ -142,7 +140,7 @@ p
         }
         
         input[type=submit] {
-          background-color: #b49b9bcc;
+          background-color: #b49b9b85;
           color: rgb(0, 0, 0);
           padding: 12px 20px;
           border: none;
@@ -150,7 +148,7 @@ p
         }
         
         input[type=submit]:hover {
-          background-color: #ff0000;
+          background-color: #ff000083;
           transition: background-color 1.5s ease;
         }
         .container {
