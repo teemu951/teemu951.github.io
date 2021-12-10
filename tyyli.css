@@ -37,6 +37,14 @@ p
   text-align: center;
   background-image: url(komeetta.png);
 }
+.rounded-circle
+{
+  opacity: 0.5;
+}
+.rounded-circle:hover
+{
+  opacity: 1.0;
+}
 /* Kissa galleria */
 .slider-holder
         {
@@ -104,12 +112,12 @@ p
         {
             display: inline-block;
             height: 15px;
-            width: 50px;
-            border-radius: 5px;
-            background-color: aqua;
+            width: 80px;
+            border-radius: 20px;
+            background-color: aqua
         }
         a:hover, a:active {
-          background-color: rgba(160, 137, 137, 0.274);
+          background-color: rgba(168, 102, 102, 0.637);
           transition: background-color 1.5s ease;
         }
         .trolli {
@@ -153,7 +161,7 @@ p
         }
         .container {
           border-radius: 15px;
-          background-color: #99646450;
+          background-color: #ffffff50;
           padding: 20px;
         }
         .column {
@@ -170,7 +178,7 @@ p
         .jääkiekko_tieto1
         {
           background-color: #02dbf88c;
-          border-radius: 20px;
+          border-radius: 10px;
         }
         .jääkiekko_tieto2
         {
