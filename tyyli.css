@@ -170,12 +170,15 @@ p
         .jääkiekko_tieto1
         {
           background-color: #02dbf88c;
+          border-radius: 20px;
         }
         .jääkiekko_tieto2
         {
           background-color: #00e1ff8c;
+          border-radius: 20px;
         }
         .jääkiekko_tieto3
         {
-          background-color: #02dbf88c;
+          background-color: #00e1ff8c;
+          border-radius: 20px;
         }
