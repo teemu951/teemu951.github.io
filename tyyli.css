@@ -92,15 +92,15 @@ p
        
         #slider-image-3:target ~ .image-holder
         {
-            left: -960px;
+            left: -965px;
         }
         #slider-image-4:target ~ .image-holder
         {
-            left: -1440px;
+            left: -1450px;
         }
         #slider-image-5:target ~ .image-holder
         {
-            left: -1920px;
+            left: -1940px;
         }
         .button-holder
         {
@@ -186,6 +186,11 @@ p
           border-radius: 20px;
         }
         .jääkiekko_tieto3
+        {
+          background-color: #00e1ff8c;
+          border-radius: 20px;
+        }
+        .list
         {
           background-color: #00e1ff8c;
           border-radius: 20px;
