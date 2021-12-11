@@ -48,18 +48,18 @@ p
 /* Kissa galleria */
 .slider-holder
         {
-            max-width: 900px;
-            max-height: 400px;
+            max-width: 100%;
             margin-left:auto;
             margin-right: auto;
             margin-top: 50px;
             text-align: left;
             overflow: hidden;
+            position: relative;
         }
        
         .image-holder
         {
-            width: 2400px;
+            width: 2500px;
             height: 400px;
             clear: both;
             position: relative;
@@ -76,31 +76,31 @@ p
             margin: 0px;
             padding: 10px;
             position: relative;
-           max-width: 100%;
+            max-width: 100%;
            height: 80%;
         }
        
         #slider-image-1:target ~ .image-holder
         {
-            left: +100px;
+            left: 0px;
         }
        
         #slider-image-2:target ~ .image-holder
         {
-            left: -300px;
+            left: -480px;
         }
        
         #slider-image-3:target ~ .image-holder
         {
-            left: -785px;
+            left: -960px;
         }
         #slider-image-4:target ~ .image-holder
         {
-            left: -1250px;
+            left: -1440px;
         }
         #slider-image-5:target ~ .image-holder
         {
-            left: -1700px;
+            left: -1920px;
         }
         .button-holder
         {
